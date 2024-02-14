@@ -9,8 +9,22 @@ In this paragraph, I would like to explain what is activation function used in n
 ### 1.1 Activation Function (AF)
 Activation function (AF) is a function used in a neural network to compute the weighted sum of inputs and biases, which is in turn used to decide whether a neuron can be activated or not. The purpose of the activation function is to introduce non-linearity into the output of a neuron. The activation functions are also referred to as transfer functions in some literature.
 We know, that the neural network has neurons that work in correspondence with weight, bias, and their respective activation function. In a neural network, we would update the weights and biases of the neurons based on the error at the output. This process is known as back-propagation. Activation functions make the back-propagation possible since the gradients are supplied along with the error to update the weights and biases.
-![Screenshot 2024-02-15 at 3 10 26 AM](https://github.com/md-abu-shayid/Deep_Learning_Assignment_01/assets/118624581/bba06750-0f8a-47b5-8c81-aaf7b369cb73)
-### 1.2 Usefulness of activation function
+
+![Screenshot 2024-02-15 at 3 34 31 AM](https://github.com/md-abu-shayid/Deep_Learning_Assignment_01/assets/118624581/012bdaff-588c-4b29-a2a1-b5bd9197566b)
+
+### 1.2 Types of activation function
+There are mainly two types of activation functions such as- <br>
+(a)    linear activation function and <br>
+(b)    non-linear activation function.
+
+### Linear activation function
+The linear activation function, also known as "no activation," or "identity function" (multiplied x1.0), is where the activation is proportional to the input. The function doesn't do anything to the weighted sum of the input, it simply spits out the value it was given. Mathematically it can be written as
+### f(x)=x
+Graph of the linear activation function is given bellow.
+
+![Screenshot 2024-02-15 at 4 07 11 AM](https://github.com/md-abu-shayid/Deep_Learning_Assignment_01/assets/118624581/d613150c-aed7-4939-b9d9-573a4fe1cef2)
+
+### 1.3 Usefulness of activation function
 A neural network without an activation function is essentially just a linear regression model. The activation function does the non-linear transformation to the input making it capable of learning and performing more complex tasks. <br>
 <b>Mathematical proof</b><br>
 Suppose we have a Neural net like this:-
