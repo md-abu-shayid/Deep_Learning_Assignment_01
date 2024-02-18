@@ -12,7 +12,7 @@ We know, that the neural network has neurons that work in correspondence with we
 
 ![Screenshot 2024-02-15 at 3 34 31 AM](https://github.com/md-abu-shayid/Deep_Learning_Assignment_01/assets/118624581/012bdaff-588c-4b29-a2a1-b5bd9197566b)
 
-### 1.2 Types of activation function
+### 1.2 Types of Activation Function
 There are mainly two types of activation functions such as- <br>
 (a)    linear activation function and <br>
 (b)    non-linear activation function.
