@@ -138,6 +138,29 @@ Please run the above code or 'Activation_Function_(ReLu).py' file and you get th
 
 ![Screenshot 2024-02-19 at 12 45 47 AM](https://github.com/md-abu-shayid/Deep_Learning_Assignment_01/assets/118624581/3263e1d7-468e-49dc-8ab3-29ad21b769f8)
 
+## 1.9    Analysis
+### Advantages of ReLU 
+- Ease of computation and simplicity. 
+
+- Reduces the issue of the vanishing gradient.
+
+- Biologically realistic, sparse, quick training. 
+
+- Creates non-linearity, which helps the network recognize intricate patterns.
+
+### Disadvantages of ReLU
+- May have what is known as the "dying ReLU" issue, in which neurons may go dormant and cease to learn throughout training. 
+
+- limited output range and startup sensitivity.
+
+### Impact on Gradient Descent
+- Simpler computations lead to faster convergence. 
+
+- In some circumstances, zero gradients for dying ReLUs can impede learning.
+
+### Vanishing Gradients
+- Remains a possible problem in really deep networks
+- Required careful architectural planning.
 
 ## 1.9    References
 
